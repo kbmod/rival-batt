@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=rival-batt
+Comment=Monitor Rival 3 Wireless battery
+Exec=rival-batt
+Icon=input-mouse
+Terminal=false
+Categories=Utility;
+StartupNotify=false

@@ -1,0 +1,21 @@
+# Local Python environments and bytecode
+/.venv/
+/venv/
+__pycache__/
+*.py[cod]
+
+# PyInstaller output and generated build specifications
+/build/
+/dist/
+/*.spec
+
+# Release packages
+/rival-batt*.exe
+/rival-batt*.zip
+/rival-batt*.deb
+
+# Local test and coverage output
+/.pytest_cache/
+/.coverage
+/.coverage.*
+/htmlcov/

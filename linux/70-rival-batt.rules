@@ -1,0 +1,3 @@
+# Access only to the Rival 3 Wireless vendor interface for the active local user.
+ACTION!="remove", SUBSYSTEM=="hidraw", ATTRS{idVendor}=="1038", ATTRS{idProduct}=="1830", ENV{RIVAL_BATT_RECEIVER}="1"
+ACTION!="remove", SUBSYSTEM=="hidraw", ENV{RIVAL_BATT_RECEIVER}=="1", ATTRS{bInterfaceNumber}=="03", TAG+="uaccess"
